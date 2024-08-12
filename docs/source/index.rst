@@ -1,6 +1,6 @@
 Geospatial Disasters API Service
 ================================
-Solve walking scenarios and determine which places and areas are accessible by a pedestrian.
+Query broadcasted news related to natural disasters and visualize them using spatial aggregations.
 
 This modern Python module represents an idiomatic client accessing the `Geodisasters location services <https://geospatial-ai.de/?rara-portfolio=geospatial-pedestrian-api-service>`__ being hosted on `Rapid API Hub <https://v2.rapidapi.com/gisfromscratch/api/geodisasters>`__.
 
