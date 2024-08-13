@@ -1,4 +1,9 @@
-# geodisasters-py
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Geospatial-AI-DE/geodisasters-py)](https://pypi.org/project/geodisasters)
+![GitHub License](https://img.shields.io/github/license/Geospatial-AI-DE/geodisasters-py)
+[![Read the Docs](https://img.shields.io/readthedocs/geodisasters)](https://geodisasters.readthedocs.io/en/latest)
+[![Tweet Me](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FGeospatial-AI-DE%geodisasters-py)](https://twitter.com/intent/tweet?text=Outstanding:&url=https%3A%2F%2Fgithub.com%2FGeospatial-AI-DE%geodisasters-py)
+
+# Geospatial Disasters API Service
 Query broadcasted news related to natural disasters and visualize them using spatial aggregations.
 
 Broadcasted news serves as a valuable source of information for identifying natural disasters globally. Geospatial features represent extracted locations from broadcasted news to identify the locations of these events. Natural disasters such as hurricanes, floods, wildfires, and others are captured and represented as geospatial features.
