@@ -7,7 +7,7 @@ include = ['geodisasters']
 
 [project]
 name = 'geodisasters'
-version = '0.1'
+version = '0.1.1'
 description = 'Query broadcasted news related to natural disasters and visualize them using spatial aggregations.'
 readme = 'README.md'
 requires-python = '>=3.7'
