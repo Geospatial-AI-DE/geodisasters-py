@@ -15,3 +15,9 @@ We designed the geospatial intelligence API services for research and analysis o
 Redistribution
 
 You may redistribute, republish, and mirror the geospatial datasets in any form. However, any use or redistribution of the geospatial datasets and results must include a citation to GEOINT API services and a link to our website https://geospatial-ai.de.
+
+### Query the news related to natural disasters occurred the last 365 days
+
+![image](https://github.com/user-attachments/assets/d836fc8e-199e-4009-ab68-dd02807d2f2b)
+
+![image](https://github.com/user-attachments/assets/31e6a33d-8381-4956-8d16-e3108547ccac)
