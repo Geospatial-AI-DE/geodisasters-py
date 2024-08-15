@@ -293,11 +293,34 @@ For example querying the named hotspots categorized by theme from yesterday:
 For example aggregate the named hotspots categorized by theme from yesterday:
 
 .. code-block:: python
+    from arcgis.features import FeatureSet
     from geodisasters.services import aggregate
     from georapid.formats import OutFormat
     
     # aggregate to geospatial hexagonal bins having the number of news article related to natural disasters
     featureset_dict = aggregate(client, format=OutFormat.ESRI)
+    featureset = FeatureSet.from_dict(featureset_dict)
+    featureset.sdf
+
+.. list-table::
+    :header-rows: 1
+
+    * - index
+      - theme
+      - ...
+      - SHAPE
+    * - 0
+      - FLOOD
+      - ...
+      - {"rings": [[[125.431852, 44.362997], [125.3508...
+    * - ...
+      - ...
+      - ...
+      - ...
+    * - 17
+      - EARTHQUAKE
+      - ...
+      - {"rings": [[[-113.792034, 36.6959], [-113.8730...
 
 Terms of use
 ------------
