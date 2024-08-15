@@ -40,12 +40,12 @@ Query the news related to natural disasters
 For example querying the named hotspots categorized by theme from yesterday:
 
 .. code-block:: python
+    
+    from geodisasters.services import hotspots
+    from georapid.formats import OutFormat
 
-   from geodisasters.services import aggregate, hotspots, query
-   from georapid.formats import OutFormat
-
-   featureset_dict = hotspots(client, format=OutFormat.ESRI)
-   featureset_dict
+    featureset_dict = hotspots(client, format=OutFormat.ESRI)
+    featureset_dict
 
 .. code-block:: python
 
@@ -289,6 +289,15 @@ For example querying the named hotspots categorized by theme from yesterday:
         }
       ]
    }
+
+For example aggregate the named hotspots categorized by theme from yesterday:
+
+.. code-block:: python
+    from geodisasters.services import aggregate
+    from georapid.formats import OutFormat
+    
+    # aggregate to geospatial hexagonal bins having the number of news article related to natural disasters
+    featureset_dict = aggregate(client, format=OutFormat.ESRI)
 
 Terms of use
 ------------
