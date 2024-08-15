@@ -293,6 +293,7 @@ For example querying the named hotspots categorized by theme from yesterday:
 For example aggregate the named hotspots categorized by theme from yesterday:
 
 .. code-block:: python
+    
     from arcgis.features import FeatureSet
     from geodisasters.services import aggregate
     from georapid.formats import OutFormat
